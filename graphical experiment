@@ -14,3 +14,24 @@ for i in range(5):
 t.end_fill()
 t.hideturtle()
 turtle.done()
+
+
+
+
+
+
+# create circle
+import turtle
+s= turtle.Screen()
+s.bgcolor("black")
+
+t=turtle.Turtle()
+t.speed(10)
+t.color("yellow","cyan")
+t.pensize(2)
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+t.hideturtle()
+turtle.done()
+s.exitonclick()
