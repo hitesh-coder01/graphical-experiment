@@ -1,0 +1,16 @@
+              # how to create star
+import turtle
+s= turtle.Screen()
+s.bgcolor("black")
+
+t=turtle.Turtle()
+t.speed(1)
+t.color("yellow","blue")
+t.pensize(2)
+t.begin_fill()
+for i in range(5):
+    t.forward(150)
+    t.right(144)
+t.end_fill()
+t.hideturtle()
+turtle.done()
