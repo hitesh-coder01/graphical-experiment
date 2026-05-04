@@ -35,3 +35,26 @@ t.end_fill()
 t.hideturtle()
 turtle.done()
 s.exitonclick()
+
+
+
+
+
+                                  # MY INCORRECT CODE
+import tutle
+s=turtle.screen()
+s.bgcolor."black"
+
+t=turtle.Turtle
+t.speed(3)
+t.pensize(2)
+t.fill_color."red"
+for i in range(5):
+    t.forward(150)
+    t.right(144)
+t.end_color."red"
+t.active                     #MY INCORRECT CCODE
+
+
+
+#.
